@@ -4,6 +4,7 @@ import App from './App.vue'
 // import router from './router'
 import store from "./store";
 
+// 测试/-----
 Vue.use(VueRouter)
 var files = require.context('./router/demo', false, /\.js$/)
 var route = []
